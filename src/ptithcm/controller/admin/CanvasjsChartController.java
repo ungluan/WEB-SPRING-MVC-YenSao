@@ -91,7 +91,6 @@ public class CanvasjsChartController {
 		canvasjsChartData.add(dataPoints1);
 		return canvasjsChartData;
 	}
-
 	private int[] getYears() {
 		int curYear = new Date().getYear();
 		int[] list = new int[10];
